@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "d9a1",
+      "jobs": [
+        {
+          "id": 1723993617337,
+          "work": "Rörfokus AB ",
+          "title": "Rörmokare",
+          "date": "1111-22-22",
+          "dates": "2222-44-33",
+          "description": "I did my apprentship here was not fun at all"
+        }
+      ],
+      "education": [],
+      "references": [
+        {
+          "id": 1723993617339,
+          "company": "Hsb fucking uppsala",
+          "occupation": "Röris",
+          "person": "Jörgen Pettersson",
+          "contactInformation": "1112222211-3344",
+          "description": "I worked here for 3 years and i really enjoyed this place"
+        },
+        {
+          "id": 1723993730070,
+          "company": "Radiator Vvs",
+          "occupation": "Konsultchef",
+          "person": "Mattias svensson",
+          "contactInformation": "07053421256",
+          "description": "This was the highlight of my career i dunno why i quit this place"
+        }
+      ],
+      "languages": [
+        {
+          "id": 1723993617340,
+          "language": "Engelska",
+          "level": "Advance"
+        },
+        {
+          "id": 1723993677880,
+          "language": "Spanish",
+          "level": "Beginner"
+        }
+      ]
+    },
+    {
+      "id": "9c84",
+      "jobs": [
+        {
+          "id": 1724947250217,
+          "work": "r3w",
+          "title": "qeqe",
+          "date": "dqwdqw",
+          "dates": "qwdqwww",
+          "description": "dqdqw"
+        }
+      ],
+      "education": [],
+      "references": [],
+      "languages": []
+    }
+  ]
+}

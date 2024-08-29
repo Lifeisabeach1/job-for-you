@@ -1,0 +1,491 @@
+
+body {
+  font-family: Georgia, 'Bold', Italic;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.navbar {
+  background-color: rgb(214, 197, 197);
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: relative; 
+  
+}
+
+.navbar-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+
+.left-section {
+  position: absolute;
+  left: 20px;  
+}
+
+.cv-for-you {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 4px;
+  background-color: #7c7988;
+  padding: 4px;
+  border-radius: 10px;
+
+}
+
+
+.center-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0;
+  background-color: #7c7988;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.personal-letter, .cv, .product {
+  
+  background-color:  rgb(224, 215, 215);
+  
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1 em;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.personal-letter {
+  margin-left: 230px;
+}
+
+.product {
+  margin-left: 400px;
+}
+
+form {
+  background-color: rgb(224, 215, 215);
+  width: 200px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+ 
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: rgb(209, 122, 122);
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  padding-right: 28px;
+  padding-left: 28px;
+  font-weight: bold;
+  font-size: 1 em;
+  margin-top: 10px;
+
+}
+
+
+input {
+  border-radius: 7px;
+  
+}
+
+.submit-the-form {
+  cursor: pointer;
+  background-color: rgb(209, 122, 122);
+  border-radius: 7px;
+  margin-left: 30px;
+  cursor: pointer;
+  padding-right: 28px;
+  padding-left: 28px;
+  font-weight: bold;
+  font-size: 1 em;
+}
+
+
+
+img {
+  margin-left: 30px;
+  max-width: 150px;
+  margin-top: 15px;
+}
+
+
+#content {
+  height: 500px;
+  width: 750px;
+  position: absolute;
+  top: 70px;
+  right: 375px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+.page {
+  position: relative;
+}
+
+.container {
+  width: 200px;
+  margin-left: 45px;
+  padding-left: 50px;
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+
+.container, .contents-summary {
+  position: absolute;
+
+}
+
+.contents-summary {
+  
+  width: 400px;
+  left: 300px;
+  top: 125px;
+  height: 500px;
+  word-wrap: break-word;
+}
+
+.delete {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0;
+  background-color: #7c7988;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+
+.export-pdf {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: rgb(209, 122, 122);
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1 em;
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+}
+
+.user-summary {
+  margin-left: 20px;
+}
+
+
+.cv-form {
+  position: absolute;
+  top: 20px;
+  left: 35%;
+  height: 30px;
+  width: 600px;
+}
+
+
+
+/*Cvt*/
+
+
+
+.styled-textarea {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.container-cv {
+    background-color: #d8d6e3;
+    margin: 30px auto;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box; 
+    
+}
+
+
+
+.work-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  display: relative;
+}
+
+.work, .title {
+  width: 48%; 
+}
+
+.from-date, .to-date {
+  width: 48%;
+  
+}
+
+.date-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+.styled-textareas, .description {
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.education-section, .work-places, .references, .languages {
+  text-align: center;
+}
+
+.add-education-container, .add-job-container, .add-reference-container {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  background-color: #e7e4f2;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 135px;
+  left: 620px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.remove-education-container, .remove-job-container, .remove-reference-container {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  background-color: #e7e4f2;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.remove-education-container, .remove-reference-container, .remove-job-container, .remove-language-container {
+  position: absolute;
+  top: 90px;
+  left: 620px;
+
+}
+
+
+
+.add-language-container {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  background-color: #e7e4f2;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 65px;
+  left: 620px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+
+.remove-language-container {
+  position: absolute;
+  top: 20px;
+  left: 620px;
+}
+
+.remove-language-container  {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  background-color: #e7e4f2;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.form-submit {
+  width: 100%;
+  position: relative;
+}
+
+
+
+
+/*CvSummary*/
+
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.job-summary, .education-summary, .reference-summary, .language-summary, .preview-summary {
+  
+  width: 100%;
+  border-radius: 5px;
+  background-color: #eee7e7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: solid black 2px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  background-color: rgb(196, 193, 193);
+  
+}
+
+.works {
+  
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto; 
+}
+
+.job-header, .education-header, .language-header, .reference-header {
+  display: flex;
+  justify-content: left;
+  align-items: left; 
+  margin-bottom: 10px;
+}
+
+.job-work, .education-institution, .language-language, .reference-company, .job-title, 
+.education-degree, .language-level, .reference-occupation {
+  margin: 5px;
+  text-align: left;
+}
+
+
+
+.reference-person, .reference-contactinformation {
+  text-align: left;
+  margin: 5px;
+}
+
+
+
+.job-description, .education-description, .reference-description {
+  text-align: left;
+  word-wrap: break-word; 
+  hyphens: auto;
+  width: 400px;
+  margin: 5px;
+  line-height: 1rem;
+}
+
+.job-date, .education-from-date {
+  text-align: left;
+  margin: 5px;
+}
+
+.users-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.users-container div {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.users-container button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.users-container button:hover {
+  background-color: #0056b3;
+}
+
+.custom-file-upload2 {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: rgb(209, 122, 122);
+  border-radius: 10px;
+  cursor: pointer;
+  padding-right: 28px;
+  padding-left: 28px;
+  font-weight: bold;
+  font-size: 1em;
+  position: absolute;
+  left: 46%;
+  bottom: 10px;
+}
+
+
+.reference {
+  margin-bottom: 25px;
+}
